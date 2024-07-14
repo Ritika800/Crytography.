@@ -4,6 +4,7 @@
 This project implements file encryption and decryption using various cryptographic algorithms in Python. The primary goal is to provide secure methods for encrypting and decrypting files, ensuring data confidentiality and integrity.
 
 **Features:-**
+
  File Encryption: Encrypts files using symmetric encryption algorithms.
 
  File Decryption: Decrypts previously encrypted files.
@@ -13,14 +14,17 @@ This project implements file encryption and decryption using various cryptograph
  Key Management: Generates and handles encryption keys securely.
 
 **Algorithms Implemented**
+
 AES: Advanced Encryption Standard for secure encryption and decryption.
 
 **How It Works**
 
 1.**Key Generation:**
+
 oA secure key is generated using the Fernet module from the cryptography library.
 
 2.**File Encryption:**
+
 oThe file is read in binary mode.
 
 oThe content is encrypted using the generated key.
@@ -28,6 +32,7 @@ oThe content is encrypted using the generated key.
 oThe encrypted content is written to a new file.
 
 3.**File Decryption:**
+
 oThe encrypted file is read in binary mode.
 
 oThe content is decrypted using the same key used for encryption.
@@ -42,6 +47,7 @@ oThe decrypted content is written to a new file.
  cryptography package
 
 **Usage**
+
  To generate an encryption key:
 
  To encrypt a file:
